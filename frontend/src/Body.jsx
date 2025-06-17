@@ -7,6 +7,7 @@ const Body = () => {
   return (
     <div>
       <NavBar />
+
       <Outlet />
       {/* -----> imp */}
       <Footer />

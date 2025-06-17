@@ -1,13 +1,12 @@
-import React from "react";
-
 const NavBar = () => {
   return (
-    <div className="navbar bg-base-300 shadow-sm">
+    <div className="navbar bg-base-300">
       <div className="flex-1">
-        <a className="btn btn-ghost text-xl">🐱‍👤DevConnect🐱‍👤</a>
+        <a className="btn btn-ghost text-xl">👩‍💻 DevTinder</a>
       </div>
-      <div className="flex gap-2">
-        <div className="dropdown dropdown-end  mx-4">
+      <div className="flex-none gap-2">
+        <div className="form-control"></div>
+        <div className="dropdown dropdown-end mx-5">
           <div
             tabIndex={0}
             role="button"
@@ -22,7 +21,7 @@ const NavBar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
               <a className="justify-between">
@@ -42,5 +41,4 @@ const NavBar = () => {
     </div>
   );
 };
-
 export default NavBar;
